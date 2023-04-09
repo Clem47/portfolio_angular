@@ -1,0 +1,30 @@
+.button{
+    @apply
+    mx-14
+    text-lightSpecialGrey
+    shadow-sm
+}
+
+.button:hover{
+    @apply
+    text-specialyellow
+}
+
+.header{
+    @apply
+    bg-specialGrey
+    opacity-90
+    container 
+    max-w-5xl
+    mt-2
+    rounded-lg
+    mx-auto 
+    h-9
+    items-center
+    border 
+    border-specialGrey
+    flex 
+    flex-row
+    justify-center 
+    flex-wrap
+}
